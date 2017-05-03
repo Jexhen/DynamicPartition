@@ -146,6 +146,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dynamic_partition.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="process.c" />
+    <ClCompile Include="space.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dynamic-partition.h" />
+    <ClInclude Include="process.h" />
+    <ClInclude Include="space.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
